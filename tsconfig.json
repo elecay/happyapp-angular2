@@ -6,7 +6,12 @@
         "target": "es5"
     },
     "files": [
-        "happyapp.ts",
+        "mainapp.ts",
+        "components/home.ts",
+        "components/map.ts",
+        "components/trending.ts",
+        "components/account.ts",
+        "components/about.ts",
         "typings/tsd.d.ts"
     ]
 }
