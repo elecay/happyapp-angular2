@@ -2,6 +2,7 @@
 
 Clone de este proyecto [https://github.com/Geeks2Team/hackhappiness-app](https://github.com/Geeks2Team/hackhappiness-app) utilizando Angular2 y Typescript.
 
+
 **install typings (required for design time typechecking in editors)**
 ```
 npm install tsd -g

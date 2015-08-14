@@ -1,12 +1,11 @@
-<nav>
-	<ul>
-		<li><a router-link="home">Home</a></li>
-		<li><a router-link="map">Map</a></li>
-		<li><a router-link="trending">Trending</a></li>
-		<li><a router-link="about">About</a></li>
-		<li><a router-link="account">Account</a></li>
-	</ul>
-</nav>
 <main>
+  <div class="header">{{ activeTab }}</div>
 	<router-outlet></router-outlet>
 </main>
+
+<nav class="tab-nav tabs">
+    <a *ng-for="#page of pages" class="tab-item" (click)="selectTab(page.url)" [class.tab-item-active]="activeTab == page.url" router-link={{page.url}}>
+		<i class="icon {{page.icon}}"></i>
+		<span>{{ page.url }}</span>
+	</a>
+</nav>
