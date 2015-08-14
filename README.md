@@ -12,13 +12,15 @@ tsd reinstall
 tsd rebundle
 ```
 
-**transpile (keeps running on background)**
-
-```
-npm install -g typescript
-tsc -w
-```
-
+**transpile**
+- install Typescript
+ ```
+ npm install -g typescript
+ ```
+- run transpile (keeps running on background) 
+ ```
+ tsc -w
+ ```
 
 **run:**
 - install http-server package via
