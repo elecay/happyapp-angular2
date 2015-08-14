@@ -10,8 +10,13 @@ Clone de este proyecto [https://github.com/Geeks2Team/hackhappiness-app](https:/
 npm install tsd -g
 tsd reinstall
 tsd rebundle
-
 ```
+
+**transpile (keeps running on background)**
+```
+tsc -w
+```
+
 
 **run:**
 - install http-server package via
