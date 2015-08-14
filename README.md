@@ -13,7 +13,9 @@ tsd rebundle
 ```
 
 **transpile (keeps running on background)**
+
 ```
+npm install -g typescript
 tsc -w
 ```
 
