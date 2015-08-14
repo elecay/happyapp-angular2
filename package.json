@@ -1,0 +1,22 @@
+{
+  "name": "happyapp",
+  "version": "0.1.0",
+  "description": "HackHappiness",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/http-server/bin/http-server"
+  },
+  "dependencies": {
+    "http-server": "0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elecay/happyapp-angular2"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}

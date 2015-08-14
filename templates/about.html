@@ -1,0 +1,14 @@
+<div class="list">
+	<span class="item-text-wrap text-center item">
+		The Happy App is a contribution from the Community to the Community.
+		It has been possible thanks to AngularBeers and WebVisions.
+	</span>
+</div>
+<div class="about-container">
+	<div class="about">
+		<div class="contributor" *ng-for="#contributor of contributors">
+			<img src="{{contributor.img}}">
+			<h2>{{contributor.name}}</h2>
+		</div>
+	</div>
+</div>

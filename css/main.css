@@ -1,0 +1,70 @@
+body {
+    height: 700px;
+}
+.tab-item:hover {
+	background: #C5BE30;
+}
+.tab-nav span {
+	bottom: 15px;
+    position: relative;
+    font-size: 10px;
+}
+.tab-nav .icon {
+	font-size: 25px;
+}
+#map {
+	width: 1300px;
+    height: 700px;
+}
+.about h2 {
+    background-color: #fff;
+    margin: -5px 0 0 0;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    padding: 5px;
+}
+.about .contributor {
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+.about-container {
+    margin: 20px auto;
+    width: 92%;
+}
+.item-avatar.item {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,.15);
+    border-radius: 2px;
+}
+.icon {
+    pointer-events:none;
+}
+.list {
+    box-shadow: 0 2px 5px rgba(0,0,0,.15);
+    height: 53px;
+    margin-top: 10px;
+    width: 98%;
+    margin: 10px auto;
+}
+.header {
+    box-shadow: 0 2px 8px 2px rgba(0,0,0,.15);
+    height: 40px;
+    background-color: #FFE75E;
+    z-index: 99999;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.tab-item.tab-item-active {
+    background-color: #FFFCC4;
+}
+.tab-nav span {
+    text-transform: capitalize;
+}
